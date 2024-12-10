@@ -3,7 +3,7 @@ require_once 'funcoes.php';
 $cod_livro = isset($_GET['cod_livro']) ? intval($_GET['cod_livro']) : null;
 
 if (empty($cod_livro)) {
-    echo "Código do livro não informado<br>";
+    echo "Código do livro não informado.<br>";
     exit;
 }
 
